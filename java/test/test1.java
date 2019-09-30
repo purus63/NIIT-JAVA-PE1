@@ -47,7 +47,7 @@ public class test1 {
 
     @Test
     public void testexe1failure() {
-        assertNotEquals("Error: ", new String[]{"String str1 = 111","111 is palindrome the sum of even numbers is less than 25"}, obj.Exe1(111l));
+        assertNotEquals("Error: ", new String[]{"String str1 = 111","111 is palindrome the sum of even numbers is less than 25"}, obj.Exe1(1234l));
     }
 
 
